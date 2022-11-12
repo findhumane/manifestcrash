@@ -21,6 +21,7 @@ export default {
   },
   updates: {
     enabled: false,
+    url: "https://u.expo.dev/9dba7f74-3e3b-489c-b3a7-ce7bcb75f582"
   },
   assetBundlePatterns: [
     "**/*"
@@ -70,5 +71,11 @@ export default {
     googleWebApiKey: "test",
     googleWebApiKeyServers: "test",
     googleNoRestrictionsKey: "test",
+    eas: {
+      projectId: "9dba7f74-3e3b-489c-b3a7-ce7bcb75f582"
+    }
   },
+  runtimeVersion: {
+    policy: "sdkVersion"
+  }
 }
